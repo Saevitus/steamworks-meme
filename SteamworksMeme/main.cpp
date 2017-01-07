@@ -12,7 +12,7 @@ void main()
 		Memeworks::SetName("meme");
 		Memeworks::GetSteamLevel();
 		Memeworks::GetFriendCount(ALL_FRIENDS);
-		//Memeworks::UnlockAchievements(127); // 167(678)
+		Memeworks::UnlockAchievements(127); // 167(678)
 		//Memeworks::ClearAchievements(167);
 		Memeworks::SetPoorPresence("fuck I love memes", "payhack.net ~ payhack.net ~ payhack.net ~ payhack.net ~ payhack.net");
 
