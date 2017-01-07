@@ -1,3 +1,4 @@
+#include <Windows.h> // needed for va_start, va_end
 #include "Utilities.h"
 
 void Utilities::Log(const char* fmt, ...)
