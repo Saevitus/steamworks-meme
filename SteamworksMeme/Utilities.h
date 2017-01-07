@@ -1,9 +1,6 @@
 #pragma once
-#include <Windows.h>
-#include <string>
-#include <sstream>
-#include <conio.h>
-#include <cstdio>
+#include <conio.h> // needed for _getch();
+#include <cstdio> // needed for printf();
 #include "steam_api.h"
 
 #define ALL_FRIENDS 0xFFFF
