@@ -32,7 +32,7 @@ namespace Memeworks
 	void GetSteamID3();
 
 	// well... if you don't understand xd
-	void SetName(const char* Name);
+	void SetName(const char* pchName);
 
 	// prints your current steam level
 	void GetSteamLevel();
@@ -45,15 +45,15 @@ namespace Memeworks
 
 	// sets the rich presence of your status on steam, and ingame score
 	// for games like csgo, to any string you input.
-	void SetPoorPresence(const char* Status, const char* Score);
+	void SetPoorPresence(const char* pchStatus, const char* pchScore);
 
 	// unlocks achievements up to the number you input
 	// only for current appid
 	// TODO: add custom achievement unlocking
-	void UnlockAchievements(int Amount);
+	void UnlockAchievements(int iAmount);
 
 	// clears achievements up to the number you input
 	// only for current appid
 	// TODO: add custom achievement clearing
-	void ClearAchievements(int Amount);
+	void ClearAchievements(int iAmount);
 }
