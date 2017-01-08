@@ -28,7 +28,7 @@ namespace Memeworks
 	// inline because it'd be a waste of my time to do it in a source file
 	inline bool RequestUserStats() { return  SteamUserStats()->RequestCurrentStats(); }
 
-	// prints the SteamID3
+	// prints the SteamID3 of the account currently logged in
 	void GetSteamID3();
 
 	// well... if you don't understand xd
