@@ -25,10 +25,10 @@ void Memeworks::GetSteamID3()
 	Utilities::Log("SteamID3: [U:%i:%i]", steamID.GetEAccountType(), steamID.GetAccountID());
 }
 
-void Memeworks::SetName(const char* Name)
+void Memeworks::SetName(const char* pchName)
 {
-	Utilities::Log("Setting name to: %s", Name);
-	SteamFriends()->SetPersonaName(Name);
+	Utilities::Log("Setting name to: %s", pchName);
+	SteamFriends()->SetPersonaName(pchName);
 }
 
 void Memeworks::GetSteamLevel()
@@ -43,16 +43,16 @@ void Memeworks::GetFriendCount(int iFriendFlags)
 	Utilities::Log("Friend Count: %i", iFriend);
 }
 
-void Memeworks::SetPoorPresence(const char* Status, const char* Score)
+void Memeworks::SetPoorPresence(const char* pchStatus, const char* pchScore)
 {
-	Utilities::Log("Setting Status to: %s", Status);
-	SteamFriends()->SetRichPresence("status", Status);
+	Utilities::Log("Setting Status to: %s", pchStatus);
+	SteamFriends()->SetRichPresence("status", pchStatus);
 	SteamFriends()->SetRichPresence("game:act", "offline");
 	SteamFriends()->SetRichPresence("game:mode", "competitive");
 	SteamFriends()->SetRichPresence("game:mapgroupname", "mg_active");
 	SteamFriends()->SetRichPresence("game:map", "random");
-	Utilities::Log("Setting Score to: %s", Score);
-	SteamFriends()->SetRichPresence("game:score", Score);
+	Utilities::Log("Setting Score to: %s", pchScore);
+	SteamFriends()->SetRichPresence("game:score", pchScore);
 	SteamFriends()->SetRichPresence("game:server", "competitive");
 }
 
