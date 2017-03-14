@@ -8,7 +8,7 @@
 
 namespace Utilities
 {
-	// copypasta from syn, just a basic wrapper for printf();
+	// idea from syn, just a basic wrapper for printf();
 	// using va_list
 	void Log(const char* fmt, ...);
 
