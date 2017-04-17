@@ -2,6 +2,6 @@
 
 Big fucking steamworks meme, includes basic functionalities, setting rich presence, unlocking achievements.
 
-Get steamworks here: https://partner.steamgames.com
+It also has memory managment shit now, so you can make a cheat out of this or some bullshit idk
 
-yes it's not modern c++ fuck off hyper
+Get steamworks here: https://partner.steamgames.com
